@@ -1,3 +1,144 @@
-h1 {
-  color: red;
+header {
+    background-color: white;
+    height: 50px;
+    padding: 20px 150px;
+}
+
+#logo {
+    text-decoration: none;
+    color: #666666;
+    display: inline;
+    font-size: 25px;
+}
+
+.search {
+    height: 20px;
+    float: right;
+    padding-left: 20px;
+    padding-top: 13px;
+}
+
+nav {
+    float: right;
+    padding-top: 13px;
+}
+
+.menu {
+    padding: 10px;
+    font-size: 13px;
+}
+
+.menu > a {
+    text-decoration: none;
+    color: #4c4c4c;
+}
+
+#main {
+    padding: 150px 290px;
+    text-align: center;
+    background: url("../images/week1/hero.jpg") round;
+}
+
+#main_title {
+    font-size: 35px;
+    color: white;
+    display: block;
+}
+
+#main_subtitle {
+    font-size: 13px;
+    color: white;
+    padding-top: 10px;
+    display: block;
+}
+
+#main_download {
+    width: 130px;
+    height: 35px;
+    margin-top: 20px;
+    border: 2px white solid;
+    background: transparent;
+    display: inline-block;
+    outline:none;
+    text-align:center;
+}
+
+.action {
+    width: 130px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #7462F5;
+    display: inline-block;
+    outline:none;
+    text-align:center;
+}
+
+.action_title {
+    color: white;
+    font-size: 8px;
+}
+
+#seo {
+    background-color: white;
+    padding: 5%;
+}
+
+#portfolio {
+    background-color: #F5F5F5;
+    padding: 5%;
+}
+
+.section_img {
+    width: 45%;
+    height: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.section_readable {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+.section_title {
+    display: block;
+    font-size: 24px;
+}
+
+.section_content {
+    width: 40%;
+    display: block;
+    color: #8c979e;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+footer {
+    background-color: #0E1015;
+    padding: 20px 150px;
+    height: 33px;
+}
+
+footer > div {
+    float: right;
+}
+
+#copy_right {
+    color: white;
+    float: left;
+    margin: 10px;
+    font-size: 10px;
+}
+
+.copy_right_highlight {
+    color: #666666;
+}
+
+.social {
+    height: 15px;
+    padding: 5px;
 }
